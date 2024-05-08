@@ -8,7 +8,7 @@ body, html{
 
 nav{
     background-color: #9B8480;
-    padding: 20px 20px;
+    padding: 5px 20px;
     list-style-type: none;
     color: white;
     display: flex;
@@ -34,8 +34,12 @@ nav .nav-links ul img{
 
 nav .nav-links ul li a{
     color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
     padding: 15px;
+    
 }
 
 nav .nav-login {
@@ -45,6 +49,9 @@ nav .nav-login {
 nav .nav-login a{
     text-decoration: none;
     color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
     border: 10px solid transparent;
 }
 
@@ -54,3 +61,97 @@ a:hover{
     border-radius: 10px;
 }
 
+nav .nav-login{
+    background-color: #9B8480;
+}
+
+/* --------------------------Body------------------------------ */
+
+.secao{
+    margin-top: 10px;
+    height: 100%;
+    border: 3px solid ;
+    border-radius: 10px;
+    background-color: white;
+}
+
+body{
+    background-color: #6271A3;
+}
+/* --------------------------seção1------------------------------ */
+
+#id-secao1 p{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 400px;
+}
+
+#id-secao1 h{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 400px;
+}
+
+/* --------------------------footer------------------------------ */
+
+h2{
+    margin-top: 10px;
+}
+img{
+    margin-top: 30px;
+    width: 300px;
+}
+form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    border: 1px solid;
+    padding: 20px;
+    
+}
+
+.fundo-body-login div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+.separacao{
+    margin-top: 5px;
+}
+
+button{
+    background-color: green; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 3px; 
+    font-size: 16px; 
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+input{
+    padding: 8px; 
+    margin-bottom: 10px;
+    border: 5px solid #ccc; 
+    border-radius: 3px; 
+    font-size: 14px; 
+    font-family: Arial, sans-serif;
+}
+
+.login a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.fundo-body-login{
+    background-color: white !important;
+}
