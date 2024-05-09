@@ -117,11 +117,15 @@ body{
     gap: 20px;
 }
 
-#imagem2{
+#imagem-1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 180px;
+    margin-right: 60px;
+}
+
+#imagem-1 img{
+    height: 150px;
 }
 
 
