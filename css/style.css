@@ -80,6 +80,7 @@ nav .nav-login{
 
 .secao{
     height: 100vh;
+    width: 100vw;
     border: 3px solid ;
     border-radius: 10px;
     background-color: white;
@@ -95,17 +96,20 @@ body{
 
 #id-secao1 p{
     display: flex;
-    justify-content: end;
-    align-items: end;
-    margin-right: 400px;
+    text-align: center;
+    justify-content: center;
+    width: 600px;
+    
 }
 
-#id-secao1 h{
+#id-secao1 h2{
     display: flex;
-    justify-content: end;
-    align-items: end;
-    margin-right: 400px;
+    text-align: center ;
+    justify-content: center;
+    align-items: center;
+
 }
+
 
 /* --------------------------Login------------------------------ */
 
