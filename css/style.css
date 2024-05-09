@@ -81,7 +81,7 @@ nav .nav-login {
 
 .secao {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     border: 3px solid;
     border-radius: 10px;
     background-color: white;
@@ -98,7 +98,6 @@ body {
 .secao1 {
     margin-top: 123px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
     text-align: center;
     justify-content: center;
 }
@@ -133,7 +132,15 @@ body {
     width: 450px;
 }
 
+/* --------------------------seção 3------------------------------ */
 
+#text-secao3{
+    display: flex;
+}
+
+#imagem-secao3{
+    height: 100px;
+}
 
 
 /* --------------------------Login------------------------------ */
@@ -142,7 +149,7 @@ h2 {
     margin-top: 10px;
 }
 
-img {
+.login img {
     margin-top: 30px;
     width: 300px;
 }
@@ -216,6 +223,13 @@ footer {
 #text-secao3{
     margin: 10px;
 }
-.imgem-secao3{
-    width: 350;
+
+#id-secao3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#id-secao3 iframe{
+    height: 3%;
+    margin-top: 100px;
 }
