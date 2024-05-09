@@ -109,6 +109,20 @@ body{
     align-items: center;
 
 }
+/* --------------------------seção 2------------------------------ */
+
+.modalidades{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#imagem2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
 
 
 /* --------------------------Login------------------------------ */
