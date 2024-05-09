@@ -96,7 +96,7 @@ body {
 }
 /* --------------------------seção1------------------------------ */
 .secao1 {
-    margin-top: 123px;
+    margin-top: 95px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     justify-content: center;
@@ -138,9 +138,21 @@ body {
     display: flex;
 }
 
-#imagem-secao3{
-    height: 100px;
+
+#text-secao3{
+    margin: 10px;
 }
+
+#id-secao3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#id-secao3 iframe{
+    height: 300px;
+    margin-top: 100px;
+}
+
 
 
 /* --------------------------Login------------------------------ */
@@ -209,7 +221,7 @@ input {
     height: 120vh;
 }
 
-/* --------------------------Login------------------------------ */
+/* --------------------------Footer------------------------------ */
 footer {
     background-color: #9B8480;
     color: aliceblue;
@@ -218,6 +230,7 @@ footer {
     bottom: 0;
     text-decoration: none;
 }
+<<<<<<< HEAD
 
 footer a{
     text-decoration: none;
