@@ -218,6 +218,11 @@ footer {
     bottom: 0;
     text-decoration: none;
 }
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
 /* --------------------------Seção 3------------------------------ */
 
 #text-secao3{
@@ -232,4 +237,13 @@ footer {
 #id-secao3 iframe{
     height: 3%;
     margin-top: 100px;
+}
+
+/* --------------------------Seção 4------------------------------ */
+#text-secao4{
+    margin: 10px;
+}
+
+#mina-de-condominio{
+    margin: 26px;
 }
