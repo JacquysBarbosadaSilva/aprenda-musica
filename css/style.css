@@ -8,12 +8,18 @@ body, html{
 
 nav{
     background-color: #9B8480;
-    padding: 5px 20px;
+    padding: 5px 0px;
+    margin-bottom: 100px;
     list-style-type: none;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 
 }
 
@@ -23,6 +29,10 @@ nav .nav-links ul{
     margin: 0;
     padding: 0;
     display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -68,8 +78,7 @@ nav .nav-login{
 /* --------------------------Body------------------------------ */
 
 .secao{
-    margin-top: 10px;
-    height: 100%;
+    height: 100vh;
     border: 3px solid ;
     border-radius: 10px;
     background-color: white;
@@ -79,6 +88,9 @@ body{
     background-color: #6271A3;
 }
 /* --------------------------seção1------------------------------ */
+.secao1{
+    margin-top: 123px;
+}
 
 #id-secao1 p{
     display: flex;
@@ -94,7 +106,7 @@ body{
     margin-right: 400px;
 }
 
-/* --------------------------footer------------------------------ */
+/* --------------------------Login------------------------------ */
 
 h2{
     margin-top: 10px;
@@ -108,6 +120,7 @@ form{
     display: flex;
     flex-direction: column;
     width: 600px;
+    height: 250px;
     border: 1px solid;
     padding: 20px;
     
@@ -147,11 +160,21 @@ input{
 .login a{
     text-decoration: none;
     color: black;
-    margin-top: 10px;
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .fundo-body-login{
     background-color: white !important;
+    height: 120vh;
+}
+/* --------------------------Login------------------------------ */
+footer{
+    background-color: #9B8480;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 97.3%;
 }
