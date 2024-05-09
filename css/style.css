@@ -108,6 +108,24 @@ body {
     justify-content: center;
     width:100%;
 }
+/* --------------------------seção 2------------------------------ */
+
+.modalidades{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#imagem-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+}
+
+#imagem-1 img{
+    height: 150px;
+}
 
 .imagem-musica{
     width: 450px;
